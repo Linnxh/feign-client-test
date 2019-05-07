@@ -38,4 +38,5 @@ In order to build a Multipart file request I had to implement an in-memory versi
 ## Usage
 
 Clone repo and build with maven. Launch [`ServerMain`](src/main/java/it/pcan/test/feign/server/ServerMain.java) and then [`FeignClientMain`](src/main/java/it/pcan/test/feign/client/FeignClientMain.java).
+
 **建议将FeignClientMain里的  localhost：//8080 替换成本机的ip**
